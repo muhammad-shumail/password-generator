@@ -1,0 +1,259 @@
+/* Custom CSS styles */
+body {
+  background-color: #caedf7;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+#password-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-copy {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-copy:hover {
+  background-color: #1e7e34;
+  border-color: #1c7430;
+}
+
+.password {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#slider-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 600px;
+}
+
+#slider {
+  width: 100%;
+}
+
+#slider-value {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.input-group-append {
+  position: relative;
+  margin-left: -1px;
+  white-space: nowrap;
+}
+
+.input-group-append .btn {
+  position: relative;
+  z-index: 2;
+}
+
+.input-group-append .btn+.btn {
+  margin-left: -1px;
+}
+
+.btn-copy {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-copy:hover {
+  color: #fff;
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.btn-copy:focus {
+  color: #fff;
+  background-color: #1e7e34;
+  border-color: #1c7430;
+}
+
+#password {
+  font-family: monospace;
+  font-size: 18px;
+  text-align: center;
+  background-color: #fff;
+  border-color: #ced4da;
+  border-radius: .25rem;
+  box-shadow: none;
+  resize: none;
+}
+
+.weak {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.medium {
+  color: #ffc107;
+  font-weight: bold;
+}
+
+.strong {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.input-group-append {
+  position: relative;
+  margin-left: -1px;
+  white-space: nowrap;
+}
+
+.input-group-append .btn {
+  position: relative;
+  z-index: 2;
+}
+
+.input-group-append .btn+.btn {
+  margin-left: -1px;
+}
+
+.btn-copy {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-copy:hover {
+  color: #fff;
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.btn-copy:focus {
+  color: #fff;
+  background-color: #1e7e34;
+  border-color: #1c7430;
+}
+
+#password {
+  font-family: monospace;
+  font-size: 18px;
+  text-align: center;
+  background-color: #fff;
+  border-color: #ced4da;
+  border-radius: .25rem;
+  box-shadow: none;
+  resize: none;
+}
+
+.weak {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.medium {
+  color: #ffc107;
+  font-weight: bold;
+}
+
+.strong {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background: #ddd;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #28a745;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #28a745;
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb:hover {
+  background: #1e7e34;
+}
+
+.slider::-moz-range-thumb:hover {
+  background: #1e7e34;
+}
+
+.slider::-webkit-slider-thumb:active {
+  background: #1e7e34;
+}
+
+.slider::-moz-range-thumb:active {
+  background: #1e7e34;
+}
+
+.slider::-webkit-slider-runnable-track {
+  height: 5px;
+  background: #ddd;
+  border-radius: 5px;
+}
+
+.slider::-moz-range-track {
+  height: 5px;
+  background: #ddd;
+  border-radius: 5px;
+}
+
+.slider::-moz-focus-outer {
+  border: 0;
+}
+
+
+#password {
+  margin-bottom: 1rem;
+}
+
