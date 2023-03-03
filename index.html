@@ -7,48 +7,50 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <!-- use online fav icon any PG -->
+    <link rel="icon" href="https://www.google.com/s2/favicons?domain=www.google.com">
   </head>
 
   <body>
 
 
     <div id="password-container">
-      <h1 class="text-center">Password Generator</h1>
-      <div class="form-group">
-        <label for="password-length">Password length:</label>
+      <h1 class="text-center text-danger display-4">Password Generator</h1>
+      <div class="form-group ">
+        <label class="lead" for="password-length">Password length:</label>
         <input type="number" id="password-length" class="form-control" min="8" max="128" value="16">
       </div>
-      
-      <div class="form-group">
-        <label for="uppercase">Include uppercase letters:</label>
+
+      <div class="form-group ">
+        <label class="lead" for="uppercase">Include uppercase letters:</label>
         <div class="form-check form-check-inline">
           <input type="checkbox" id="uppercase" class="form-check-input" checked>
-          <label class="form-check-label" for="uppercase">Yes</label>
+          <label class="form-check-label lead" for="uppercase">Yes</label>
         </div>
       </div>
       <div class="form-group">
-        <label for="lowercase">Include lowercase letters:</label>
-        <div class="form-check form-check-inline">
+        <label  class="lead" for="lowercase">Include lowercase letters:</label>
+        <div class="form-check form-check-inline lead">
           <input type="checkbox" id="lowercase" class="form-check-input" checked>
-          <label class="form-check-label" for="lowercase">Yes</label>
+          <label class="form-check-label lead" for="lowercase">Yes</label>
         </div>
       </div>
       <div class="form-group">
-        <label for="numbers">Include numbers:</label>
-        <div class="form-check form-check-inline">
+        <label class="lead" for="numbers">Include numbers:</label>
+        <div class="form-check form-check-inline lead ">
           <input type="checkbox" id="numbers" class="form-check-input" checked>
-          <label class="form-check-label" for="numbers">Yes</label>
+          <label class="form-check-label lead" for="numbers">Yes</label>
         </div>
       </div>
       <div class="form-group">
-        <label for="symbols">Include symbols:</label>
-        <div class="form-check form-check-inline">
+        <label class="lead" for="symbols">Include symbols:</label>
+        <div class="form-check form-check-inline lead">
           <input type="checkbox" id="symbols" class="form-check-input" checked>
-          <label class="form-check-label" for="symbols">Yes</label>
+          <label class="form-check-label lead" for="symbols">Yes</label>
         </div>
       </div>
       <div class="form-group">
-        <label for="password">Your password:</label>
+        <label class="lead" for="password">Your password:</label>
         <div class="input-group">
           <input type="text" id="password" class="form-control password" readonly>
           <div class="input-group-append">

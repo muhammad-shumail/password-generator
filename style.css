@@ -1,8 +1,19 @@
 /* Custom CSS styles */
+/* use google fonts Montserrat and Open Sans */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700');
+
+/* use fontawesome for social media icons */
+@import url('https://use.fontawesome.com/releases/v5.0.6/css/all.css');
+
+
 body {
   background-color: #caedf7;
-  font-family: 'Open Sans', sans-serif;
-  
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #202020;
+
+
 }
 
 #password-container {
